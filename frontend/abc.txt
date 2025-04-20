@@ -1,0 +1,2039 @@
+[2m7:59:53 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../config/api" from "src/Redux/Auth/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Auth/Action.js[39m:14:49
+[33m  12 |    LOGOUT
+  13 |  } from './ActionTypes';
+  14 |  import api, { API_BASE_URL } from '../../config/api';
+     |                                                  ^
+  15 |  
+  16 |  // Register action creators[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m [33m(x2)[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Products/ProductsTable.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Products/ProductsTable.jsx[39m:23:27
+[33m  37 |  } from "@mui/material";
+  38 |  import React from "react";
+  39 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  40 |  import { useLocation, useNavigate } from "react-router-dom";
+  41 |  import { useState } from "react";[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Orders/OrdersTable.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Orders/OrdersTable.jsx[39m:27:27
+[33m  40 |  import { useNavigate } from "react-router-dom";
+  41 |  import { Grid, Select } from "@mui/material";
+  42 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  43 |  import { useDispatch, useSelector } from "react-redux";
+  44 |  import {[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../config/api" from "src/Redux/Auth/Action.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Auth/Action.js[39m:14:49
+[33m  12 |    LOGOUT
+  13 |  } from './ActionTypes';
+  14 |  import api, { API_BASE_URL } from '../../config/api';
+     |                                                  ^
+  15 |  
+  16 |  // Register action creators[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../config/api" from "src/Redux/Auth/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Auth/Action.js[39m:14:49
+[33m  12 |    LOGOUT
+  13 |  } from './ActionTypes';
+  14 |  import api, { API_BASE_URL } from '../../config/api';
+     |                                                  ^
+  15 |  
+  16 |  // Register action creators[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../config/api" from "src/Redux/Customers/Product/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Customers/Product/Action.js[39m:20:55
+[33m  18 |    DELETE_PRODUCT_FAILURE,
+  19 |  } from "./ActionType";
+  20 |  import api, { API_BASE_URL } from "../../../config/api";
+     |                                                        ^
+  21 |  
+  22 |  export const findProducts = (reqData) => async (dispatch) => {[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../config/api" from "src/Redux/Customers/Product/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Customers/Product/Action.js[39m:20:55
+[33m  18 |    DELETE_PRODUCT_FAILURE,
+  19 |  } from "./ActionType";
+  20 |  import api, { API_BASE_URL } from "../../../config/api";
+     |                                                        ^
+  21 |  
+  22 |  export const findProducts = (reqData) => async (dispatch) => {[39m [33m(x2)[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../config/api" from "src/Redux/Customers/Product/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Customers/Product/Action.js[39m:20:55
+[33m  18 |    DELETE_PRODUCT_FAILURE,
+  19 |  } from "./ActionType";
+  20 |  import api, { API_BASE_URL } from "../../../config/api";
+     |                                                        ^
+  21 |  
+  22 |  export const findProducts = (reqData) => async (dispatch) => {[39m [33m(x3)[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../config/api" from "src/Redux/Admin/Orders/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Admin/Orders/Action.js[39m:2:19
+[33m  1  |  
+  2  |  import api from "../../../config/api";
+     |                    ^
+  3  |  import {
+  4  |    canceledOrderFailure,[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Data/dress/page1" from "src/Admin/tables/RecentlyAddeddProducts.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/RecentlyAddeddProducts.jsx[39m:4:27
+[33m  18 |  import { Avatar, Box, Card, CardHeader, Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+  19 |  import React from "react";
+  20 |  import { dressPage1 } from "../../Data/dress/page1";
+     |                              ^
+  21 |  import { useNavigate } from "react-router-dom";
+  22 |  const RecentlyAddeddProducts = () => {[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Data/dress/page1" from "src/Admin/tables/RecentOrders.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/RecentOrders.jsx[39m:4:27
+[33m  18 |  import { Avatar, Box, Card, CardHeader, Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+  19 |  import React from "react";
+  20 |  import { dressPage1 } from "../../Data/dress/page1";
+     |                              ^
+  21 |  import { useNavigate } from "react-router-dom";
+  22 |  const RecentOrders = () => {[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Orders/OrdersTable.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Orders/OrdersTable.jsx[39m:27:27
+[33m  40 |  import { useNavigate } from "react-router-dom";
+  41 |  import { Grid, Select } from "@mui/material";
+  42 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  43 |  import { useDispatch, useSelector } from "react-redux";
+  44 |  import {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Products/ProductsTable.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Products/ProductsTable.jsx[39m:23:27
+[33m  37 |  } from "@mui/material";
+  38 |  import React from "react";
+  39 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  40 |  import { useLocation, useNavigate } from "react-router-dom";
+  41 |  import { useState } from "react";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../config/api" from "src/Redux/Admin/Orders/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Admin/Orders/Action.js[39m:2:19
+[33m  1  |  
+  2  |  import api from "../../../config/api";
+     |                    ^
+  3  |  import {
+  4  |    canceledOrderFailure,[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../config/api" from "src/Redux/Customers/Product/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Customers/Product/Action.js[39m:20:55
+[33m  18 |    DELETE_PRODUCT_FAILURE,
+  19 |  } from "./ActionType";
+  20 |  import api, { API_BASE_URL } from "../../../config/api";
+     |                                                        ^
+  21 |  
+  22 |  export const findProducts = (reqData) => async (dispatch) => {[39m
+[2m7:59:54 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:03:58 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./Pages/NotFound" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:4:21
+[33m  18 |  import "./App.css";
+  19 |  import AdminRoutes from "./Routers/AdminRoutes";
+  20 |  import NotFound from "./Pages/NotFound";
+     |                        ^
+  21 |  import AdminPannel from "./Admin/Components/Admin";
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";[39m
+[2m8:03:58 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./Pages/NotFound" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:4:21
+[33m  18 |  import "./App.css";
+  19 |  import AdminRoutes from "./Routers/AdminRoutes";
+  20 |  import NotFound from "./Pages/NotFound";
+     |                        ^
+  21 |  import AdminPannel from "./Admin/Components/Admin";
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:04:51 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./Pages/NotFound" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:4:21
+[33m  18 |  import "./App.css";
+  19 |  import AdminRoutes from "./Routers/AdminRoutes";
+  20 |  import NotFound from "./Pages/NotFound";
+     |                        ^
+  21 |  import AdminPannel from "./Admin/Components/Admin";
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";[39m
+[2m8:04:51 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./Pages/NotFound" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:4:21
+[33m  18 |  import "./App.css";
+  19 |  import AdminRoutes from "./Routers/AdminRoutes";
+  20 |  import NotFound from "./Pages/NotFound";
+     |                        ^
+  21 |  import AdminPannel from "./Admin/Components/Admin";
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:04:56 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./Pages/NotFound" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:4:21
+[33m  18 |  import "./App.css";
+  19 |  import AdminRoutes from "./Routers/AdminRoutes";
+  20 |  import NotFound from "./Pages/NotFound";
+     |                        ^
+  21 |  import AdminPannel from "./Admin/Components/Admin";
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";[39m
+[2m8:04:56 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./Pages/NotFound" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:4:21
+[33m  18 |  import "./App.css";
+  19 |  import AdminRoutes from "./Routers/AdminRoutes";
+  20 |  import NotFound from "./Pages/NotFound";
+     |                        ^
+  21 |  import AdminPannel from "./Admin/Components/Admin";
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:04:59 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./Pages/NotFound" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:4:21
+[33m  18 |  import "./App.css";
+  19 |  import AdminRoutes from "./Routers/AdminRoutes";
+  20 |  import NotFound from "./Pages/NotFound";
+     |                        ^
+  21 |  import AdminPannel from "./Admin/Components/Admin";
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";[39m
+[2m8:04:59 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./Pages/NotFound" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:4:21
+[33m  18 |  import "./App.css";
+  19 |  import AdminRoutes from "./Routers/AdminRoutes";
+  20 |  import NotFound from "./Pages/NotFound";
+     |                        ^
+  21 |  import AdminPannel from "./Admin/Components/Admin";
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:05:03 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./Pages/NotFound" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:4:21
+[33m  18 |  import "./App.css";
+  19 |  import AdminRoutes from "./Routers/AdminRoutes";
+  20 |  import NotFound from "./Pages/NotFound";
+     |                        ^
+  21 |  import AdminPannel from "./Admin/Components/Admin";
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24) [33m(x2)[39m
+[2m8:05:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./Admin/Components/Admin" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:5:24
+[33m  19 |  import AdminRoutes from "./Routers/AdminRoutes";
+  20 |  import NotFound from "./Pages/Notfound";
+  21 |  import AdminPannel from "./Admin/Components/Admin";
+     |                           ^
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";
+  23 |  function App() {[39m
+[2m8:05:29 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./Admin/Components/Admin" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:5:24
+[33m  19 |  import AdminRoutes from "./Routers/AdminRoutes";
+  20 |  import NotFound from "./Pages/Notfound";
+  21 |  import AdminPannel from "./Admin/Components/Admin";
+     |                           ^
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";
+  23 |  function App() {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:06:56 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./Routers/CustomerRoutes" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:6:27
+[33m  20 |  import NotFound from "./Pages/Notfound";
+  21 |  import AdminPannel from "./Admin/AdminPannel";
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";
+     |                              ^
+  23 |  function App() {
+  24 |    const isAdmin = true;[39m
+[2m8:06:56 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./Routers/CustomerRoutes" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/App.jsx[39m:6:27
+[33m  20 |  import NotFound from "./Pages/Notfound";
+  21 |  import AdminPannel from "./Admin/AdminPannel";
+  22 |  import CustomerRoutes from "./Routers/CustomerRoutes";
+     |                              ^
+  23 |  function App() {
+  24 |    const isAdmin = true;[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:07:28 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:07:28 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:07:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:07:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:07:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:07:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Data/dress/page1" from "src/Admin/tables/RecentlyAddeddProducts.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/RecentlyAddeddProducts.jsx[39m:4:27
+[33m  18 |  import { Avatar, Box, Card, CardHeader, Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+  19 |  import React from "react";
+  20 |  import { dressPage1 } from "../../Data/dress/page1";
+     |                              ^
+  21 |  import { useNavigate } from "react-router-dom";
+  22 |  const RecentlyAddeddProducts = () => {[39m
+[2m8:07:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Data/dress/page1" from "src/Admin/tables/RecentOrders.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/RecentOrders.jsx[39m:4:27
+[33m  18 |  import { Avatar, Box, Card, CardHeader, Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+  19 |  import React from "react";
+  20 |  import { dressPage1 } from "../../Data/dress/page1";
+     |                              ^
+  21 |  import { useNavigate } from "react-router-dom";
+  22 |  const RecentOrders = () => {[39m
+[2m8:07:28 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Products/ProductsTable.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Products/ProductsTable.jsx[39m:23:27
+[33m  37 |  } from "@mui/material";
+  38 |  import React from "react";
+  39 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  40 |  import { useLocation, useNavigate } from "react-router-dom";
+  41 |  import { useState } from "react";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:07:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../config/api" from "src/Redux/Customers/Product/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Customers/Product/Action.js[39m:20:55
+[33m  18 |    DELETE_PRODUCT_FAILURE,
+  19 |  } from "./ActionType";
+  20 |  import api, { API_BASE_URL } from "../../../config/api";
+     |                                                        ^
+  21 |  
+  22 |  export const findProducts = (reqData) => async (dispatch) => {[39m
+[2m8:07:29 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Orders/OrdersTable.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Orders/OrdersTable.jsx[39m:27:27
+[33m  40 |  import { useNavigate } from "react-router-dom";
+  41 |  import { Grid, Select } from "@mui/material";
+  42 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  43 |  import { useDispatch, useSelector } from "react-redux";
+  44 |  import {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:07:29 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../config/api" from "src/Redux/Admin/Orders/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Admin/Orders/Action.js[39m:2:19
+[33m  1  |  
+  2  |  import api from "../../../config/api";
+     |                    ^
+  3  |  import {
+  4  |    canceledOrderFailure,[39m
+[2m8:07:29 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../config/api" from "src/Redux/Auth/Action.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Auth/Action.js[39m:14:49
+[33m  12 |    LOGOUT
+  13 |  } from './ActionTypes';
+  14 |  import api, { API_BASE_URL } from '../../config/api';
+     |                                                  ^
+  15 |  
+  16 |  // Register action creators[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:07:30 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../config/api" from "src/Redux/Customers/Product/Action.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Customers/Product/Action.js[39m:20:55
+[33m  18 |    DELETE_PRODUCT_FAILURE,
+  19 |  } from "./ActionType";
+  20 |  import api, { API_BASE_URL } from "../../../config/api";
+     |                                                        ^
+  21 |  
+  22 |  export const findProducts = (reqData) => async (dispatch) => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:11:15 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:11:15 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Data/dress/page1" from "src/Admin/tables/RecentlyAddeddProducts.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/RecentlyAddeddProducts.jsx[39m:4:27
+[33m  18 |  import { Avatar, Box, Card, CardHeader, Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+  19 |  import React from "react";
+  20 |  import { dressPage1 } from "../../Data/dress/page1";
+     |                              ^
+  21 |  import { useNavigate } from "react-router-dom";
+  22 |  const RecentlyAddeddProducts = () => {[39m
+[2m8:11:15 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:11:15 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:11:15 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Data/dress/page1" from "src/Admin/tables/RecentOrders.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/RecentOrders.jsx[39m:4:27
+[33m  18 |  import { Avatar, Box, Card, CardHeader, Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+  19 |  import React from "react";
+  20 |  import { dressPage1 } from "../../Data/dress/page1";
+     |                              ^
+  21 |  import { useNavigate } from "react-router-dom";
+  22 |  const RecentOrders = () => {[39m
+[2m8:11:15 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:11:15 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:11:15 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Products/ProductsTable.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Products/ProductsTable.jsx[39m:23:27
+[33m  37 |  } from "@mui/material";
+  38 |  import React from "react";
+  39 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  40 |  import { useLocation, useNavigate } from "react-router-dom";
+  41 |  import { useState } from "react";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:11:16 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Orders/OrdersTable.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Orders/OrdersTable.jsx[39m:27:27
+[33m  40 |  import { useNavigate } from "react-router-dom";
+  41 |  import { Grid, Select } from "@mui/material";
+  42 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  43 |  import { useDispatch, useSelector } from "react-redux";
+  44 |  import {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:11:16 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../config/api" from "src/Redux/Auth/Action.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Auth/Action.js[39m:14:49
+[33m  12 |    LOGOUT
+  13 |  } from './ActionTypes';
+  14 |  import api, { API_BASE_URL } from '../../config/api';
+     |                                                  ^
+  15 |  
+  16 |  // Register action creators[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:11:16 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../config/api" from "src/Redux/Customers/Product/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Customers/Product/Action.js[39m:20:55
+[33m  18 |    DELETE_PRODUCT_FAILURE,
+  19 |  } from "./ActionType";
+  20 |  import api, { API_BASE_URL } from "../../../config/api";
+     |                                                        ^
+  21 |  
+  22 |  export const findProducts = (reqData) => async (dispatch) => {[39m
+[2m8:11:16 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../config/api" from "src/Redux/Admin/Orders/Action.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Redux/Admin/Orders/Action.js[39m:2:19
+[33m  1  |  
+  2  |  import api from "../../../config/api";
+     |                    ^
+  3  |  import {
+  4  |    canceledOrderFailure,[39m
+[2m8:13:31 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+[2m8:13:31 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m [33m(x2)[39m
+[2m8:13:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Orders/OrdersTable.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Orders/OrdersTable.jsx[39m:27:27
+[33m  40 |  import { useNavigate } from "react-router-dom";
+  41 |  import { Grid, Select } from "@mui/material";
+  42 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  43 |  import { useDispatch, useSelector } from "react-redux";
+  44 |  import {[39m
+[2m8:13:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Products/ProductsTable.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Products/ProductsTable.jsx[39m:23:27
+[33m  37 |  } from "@mui/material";
+  38 |  import React from "react";
+  39 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  40 |  import { useLocation, useNavigate } from "react-router-dom";
+  41 |  import { useState } from "react";[39m
+[2m8:13:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+[2m8:13:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Data/dress/page1" from "src/Admin/tables/RecentlyAddeddProducts.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/RecentlyAddeddProducts.jsx[39m:4:27
+[33m  18 |  import { Avatar, Box, Card, CardHeader, Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+  19 |  import React from "react";
+  20 |  import { dressPage1 } from "../../Data/dress/page1";
+     |                              ^
+  21 |  import { useNavigate } from "react-router-dom";
+  22 |  const RecentlyAddeddProducts = () => {[39m
+[2m8:13:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:13:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:13:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Data/dress/page1" from "src/Admin/tables/RecentOrders.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/RecentOrders.jsx[39m:4:27
+[33m  18 |  import { Avatar, Box, Card, CardHeader, Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+  19 |  import React from "react";
+  20 |  import { dressPage1 } from "../../Data/dress/page1";
+     |                              ^
+  21 |  import { useNavigate } from "react-router-dom";
+  22 |  const RecentOrders = () => {[39m
+[2m8:13:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:13:33 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:13:33 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:13:33 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:13:33 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:13:33 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Data/dress/page1" from "src/Admin/tables/RecentlyAddeddProducts.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/RecentlyAddeddProducts.jsx[39m:4:27
+[33m  18 |  import { Avatar, Box, Card, CardHeader, Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+  19 |  import React from "react";
+  20 |  import { dressPage1 } from "../../Data/dress/page1";
+     |                              ^
+  21 |  import { useNavigate } from "react-router-dom";
+  22 |  const RecentlyAddeddProducts = () => {[39m
+[2m8:13:33 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Data/dress/page1" from "src/Admin/tables/RecentOrders.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/RecentOrders.jsx[39m:4:27
+[33m  18 |  import { Avatar, Box, Card, CardHeader, Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+  19 |  import React from "react";
+  20 |  import { dressPage1 } from "../../Data/dress/page1";
+     |                              ^
+  21 |  import { useNavigate } from "react-router-dom";
+  22 |  const RecentOrders = () => {[39m
+[2m8:13:33 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:13:33 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Products/ProductsTable.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Products/ProductsTable.jsx[39m:23:27
+[33m  37 |  } from "@mui/material";
+  38 |  import React from "react";
+  39 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  40 |  import { useLocation, useNavigate } from "react-router-dom";
+  41 |  import { useState } from "react";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:13:33 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../Data/dress/page1" from "src/Admin/componets/Orders/OrdersTable.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/Orders/OrdersTable.jsx[39m:27:27
+[33m  40 |  import { useNavigate } from "react-router-dom";
+  41 |  import { Grid, Select } from "@mui/material";
+  42 |  import { dressPage1 } from "../../../Data/dress/page1";
+     |                              ^
+  43 |  import { useDispatch, useSelector } from "react-redux";
+  44 |  import {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:17:00 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+[2m8:17:00 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+[2m8:17:00 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m [33m(x2)[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m [33m(x2)[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m [33m(x2)[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:17:01 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:17:02 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:17:02 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:17:02 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:17:02 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:32:44 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:32:44 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:32:44 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:32:44 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:32:44 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:32:46 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:32:46 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui" from "src/Admin/componets/createProduct/CreateProuductDemo.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/componets/createProduct/CreateProuductDemo.jsx[39m:1:37
+[33m  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import { Box } from "mdi-material-ui";
+     |                       ^
+  18 |  import React from "react";
+  19 |  const CreateProuductDemo = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:32:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:32:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:32:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:33:04 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+[2m8:33:04 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:33:04 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:33:04 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:33:06 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:33:06 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:33:06 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:33:06 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:33:23 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+[2m8:33:25 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:33:25 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:33:25 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:33:25 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+[2m8:33:26 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:33:26 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:33:26 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:33:27 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../Styles/AdminPannelWrapper" from "src/Admin/Views/Admin.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:3:24
+[33m  16 |  }
+  17 |  import Grid from "@mui/material/Grid";
+  18 |  import AdminPannel from "../../Styles/AdminPannelWrapper";
+     |                           ^
+  19 |  import Achivement from "../tables/Achivement";
+  20 |  import MonthlyOverview from "../tables/MonthlyOverView";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:33:27 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:33:27 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:33:27 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:34:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:19:78
+[33m  32 |  import RecentOrders from "../tables/RecentOrders";
+  33 |  import { AssuredWorkloadIcon } from "@mui/icons-material";
+  34 |  import { BriefcaseVariantOutline, CurrencyUsd, HelpCircleOutline, Poll } from "mdi-material-ui";
+     |                                                                                 ^
+  35 |  const darkTheme1 = createTheme({
+  36 |    palette: {[39m
+[2m8:34:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui" from "src/Admin/Views/Admin.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:19:78
+[33m  32 |  import RecentOrders from "../tables/RecentOrders";
+  33 |  import { AssuredWorkloadIcon } from "@mui/icons-material";
+  34 |  import { BriefcaseVariantOutline, CurrencyUsd, HelpCircleOutline, Poll } from "mdi-material-ui";
+     |                                                                                 ^
+  35 |  const darkTheme1 = createTheme({
+  36 |    palette: {[39m [33m(x2)[39m
+[2m8:34:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:34:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:34:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:34:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Styles/CardStatsVertical.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Styles/CardStatsVertical.jsx[39m:10:25
+[33m  21 |  import Typography from "@mui/material/Typography";
+  22 |  import CardContent from "@mui/material/CardContent";
+  23 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  24 |  const CardStatsVertical = (props) => {
+  25 |    const { title, subtitle, color, icon, stats, trend, trendNumber } = props;[39m
+[2m8:34:46 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui" from "src/Admin/Views/Admin.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/Views/Admin.jsx[39m:19:78
+[33m  32 |  import RecentOrders from "../tables/RecentOrders";
+  33 |  import { AssuredWorkloadIcon } from "@mui/icons-material";
+  34 |  import { BriefcaseVariantOutline, CurrencyUsd, HelpCircleOutline, Poll } from "mdi-material-ui";
+     |                                                                                 ^
+  35 |  const darkTheme1 = createTheme({
+  36 |    palette: {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 20)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:34:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:34:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:34:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:34:47 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Styles/CardStatsVertical.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Styles/CardStatsVertical.jsx[39m:10:25
+[33m  21 |  import Typography from "@mui/material/Typography";
+  22 |  import CardContent from "@mui/material/CardContent";
+  23 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  24 |  const CardStatsVertical = (props) => {
+  25 |    const { title, subtitle, color, icon, stats, trend, trendNumber } = props;[39m
+[2m8:37:03 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:37:03 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:37:03 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Styles/CardStatsVertical.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Styles/CardStatsVertical.jsx[39m:10:25
+[33m  21 |  import Typography from "@mui/material/Typography";
+  22 |  import CardContent from "@mui/material/CardContent";
+  23 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  24 |  const CardStatsVertical = (props) => {
+  25 |    const { title, subtitle, color, icon, stats, trend, trendNumber } = props;[39m
+[2m8:37:03 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:37:03 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:37:03 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:37:03 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:37:03 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Styles/CardStatsVertical.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Styles/CardStatsVertical.jsx[39m:10:25
+[33m  21 |  import Typography from "@mui/material/Typography";
+  22 |  import CardContent from "@mui/material/CardContent";
+  23 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  24 |  const CardStatsVertical = (props) => {
+  25 |    const { title, subtitle, color, icon, stats, trend, trendNumber } = props;[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 9)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:38:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:38:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:38:28 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+[2m8:38:29 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:38:29 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:38:29 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:45:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/MenuUp" from "src/Admin/tables/TotalEarning.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/TotalEarning.jsx[39m:12:19
+[33m  23 |  import CardContent from "@mui/material/CardContent";
+  24 |  import LinearProgress from "@mui/material/LinearProgress";
+  25 |  import MenuUp from "mdi-material-ui/MenuUp";
+     |                      ^
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+  27 |  const data = [[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24) [33m(x2)[39m
+[2m8:45:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:45:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:48:45 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:48:45 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:48:50 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:48:51 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:49:11 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:49:11 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+[2m8:49:12 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:49:12 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/DotsVertical" from "src/Admin/tables/WeeklyOverview.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/WeeklyOverview.jsx[39m:12:25
+[33m  24 |  import Typography from "@mui/material/Typography";
+  25 |  import CardContent from "@mui/material/CardContent";
+  26 |  import DotsVertical from "mdi-material-ui/DotsVertical";
+     |                            ^
+  27 |  import ReactApexCharts from "react-apexcharts";
+  28 |  const WeeklyOverview = () => {[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)
+[2m8:50:13 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+[2m8:50:15 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "mdi-material-ui/TrendingUp" from "src/Admin/tables/MonthlyOverView.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/reaper/code/Ecom/E-Comm/frontend/src/Admin/tables/MonthlyOverView.jsx[39m:12:23
+[33m  23 |  import Typography from "@mui/material/Typography";
+  24 |  import CardContent from "@mui/material/CardContent";
+  25 |  import TrendingUp from "mdi-material-ui/TrendingUp";
+     |                          ^
+  26 |  import CurrencyUsd from "mdi-material-ui/CurrencyUsd";
+  27 |  import DotsVertical from "mdi-material-ui/DotsVertical";[39m
+      at TransformPluginContext._formatLog (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async EnvironmentPluginContainer.transform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+      at async viteTransformMiddleware (file:///home/reaper/.nvm/versions/node/v23.6.1/lib/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:42761:24)

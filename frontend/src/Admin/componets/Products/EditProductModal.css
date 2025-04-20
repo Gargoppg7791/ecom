@@ -1,0 +1,354 @@
+:root {
+  --primary-color: #1e88e5; /* Blue color for primary elements */
+  --background-light: #f5f5f5; /* Light background color */
+  --background-paper: #ffffff; /* White background color for paper elements */
+  --border-color: #e0e0e0; /* Light border color */
+  --text-primary: #000000; /* Dark text color */
+  --text-secondary: #9e9e9e; /* Secondary text color */
+  --error-color: #cf6679; /* Error color */
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Shadow */
+}
+
+.dialog-paper {
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: var(--background-paper) !important;
+}
+
+.dialog-title {
+  background-color: var(--background-light);
+  color: var(--text-primary);
+  padding: 16px 24px;
+}
+
+.dialog-content {
+  padding: 24px;
+  background-color: var(--background-paper);
+}
+
+.paper {
+  padding: 24px;
+  background-color: var(--background-paper) !important;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+.section-title {
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 24px !important; /* Increased spacing */
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.paper > .MuiGrid-container {
+  margin-top: 16px; /* Add space after headings */
+}
+
+.form-field {
+  margin-top: 8px !important; /* Space above form fields */
+  background-color: var(--background-paper) !important;
+  color: var(--text-primary) !important;
+}
+
+.form-field input, .form-field textarea {
+  color: var(--text-primary) !important;
+}
+
+.form-field label {
+  color: var(--text-secondary) !important;
+}
+
+.add-button {
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+.add-button:hover {
+  background-color: var(--border-color) !important;
+}
+
+.size-item, .color-item {
+  margin-top: 8px;
+  background-color: var(--background-paper) !important;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 20px; /* Increased padding */
+}
+
+.photo-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px;
+  background-color: var(--background-paper);
+  border-radius: 4px;
+  min-height: 100px;
+  border: 1px dashed var(--border-color);
+}
+
+.photo-box {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.photo-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.delete-button {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  opacity: 0;
+  transition: all 0.2s ease;
+  color: #d32f2f !important; /* Default red color */
+}
+
+.photo-box:hover .delete-button {
+  opacity: 1;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f !important;
+  color: rgb(150, 46, 46) !important;
+}
+
+.size-item .delete-button {
+  position: relative;
+  background-color: transparent !important;
+  opacity: 1;
+  color: #ff4d4f !important; /* Bright red color */
+  border: 1px solid #ff4d4f;
+  transition: all 0.2s ease;
+}
+
+.size-item .delete-button:hover {
+  background-color: #ff4d4f !important;
+  color: white !important;
+  border-color: #ff4d4f;
+}
+
+.color-item .delete-button {
+  position: relative;
+  background-color: transparent !important;
+  opacity: 1;
+  color: #ff4d4f !important; /* Bright red color */
+  border: 1px solid #ff4d4f;
+  transition: all 0.2s ease;
+}
+
+.color-item .delete-button:hover {
+  background-color: #ff4d4f !important;
+  color: white !important;
+  border-color: #ff4d4f;
+}
+
+.upload-button {
+  color: var(--text-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.dialog-actions {
+  padding: 16px 24px;
+  background-color: var(--background-light);
+  border-top: 1px solid var(--border-color);
+}
+
+.save-button {
+  background-color: var(--primary-color) !important;
+  color: var(--text-primary) !important;
+}
+
+.save-button:hover {
+  opacity: 0.9;
+}
+
+.cancel-button {
+  color: var(--text-secondary) !important;
+}
+
+/* Stack spacing for sections */
+.MuiStack-root {
+  gap: 24px !important; /* Increased gap between sections */
+}
+
+/* Space between title and buttons in sections */
+.MuiStack-root.MuiStack-direction-row {
+  margin-bottom: 20px !important;
+}:root {
+  --primary-color: #1e88e5; /* Blue color for primary elements */
+  --background-light: #f5f5f5; /* Light background color */
+  --background-paper: #ffffff; /* White background color for paper elements */
+  --border-color: #e0e0e0; /* Light border color */
+  --text-primary: #000000; /* Dark text color */
+  --text-secondary: #9e9e9e; /* Secondary text color */
+  --error-color: #cf6679; /* Error color */
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Shadow */
+}
+
+.dialog-paper {
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: var(--background-paper) !important;
+}
+
+.dialog-title {
+  background-color: var(--background-light);
+  color: var(--text-primary);
+  padding: 16px 24px;
+}
+
+.dialog-content {
+  padding: 24px;
+  background-color: var(--background-paper);
+}
+
+.paper {
+  padding: 24px;
+  background-color: var(--background-paper) !important;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+.section-title {
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 24px !important; /* Increased spacing */
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.paper > .MuiGrid-container {
+  margin-top: 16px; /* Add space after headings */
+}
+
+.form-field {
+  margin-top: 8px !important; /* Space above form fields */
+  background-color: var(--background-paper) !important;
+  color: var(--text-primary) !important;
+}
+
+.form-field input, .form-field textarea {
+  color: var(--text-primary) !important;
+}
+
+.form-field label {
+  color: var(--text-secondary) !important;
+}
+
+.add-button {
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+.add-button:hover {
+  background-color: var(--border-color) !important;
+}
+
+.size-item, .color-item {
+  margin-top: 8px;
+  background-color: var(--background-paper) !important;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 20px; /* Increased padding */
+}
+
+.photo-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px;
+  background-color: var(--background-paper);
+  border-radius: 4px;
+  min-height: 100px;
+  border: 1px dashed var(--border-color);
+}
+
+.photo-box {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.photo-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.delete-button {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  opacity: 0;
+  transition: all 0.2s ease;
+  color: #d32f2f !important; /* Default red color */
+}
+
+.photo-box:hover .delete-button {
+  opacity: 1;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f !important;
+  color: rgb(150, 46, 46) !important;
+}
+
+.size-item .delete-button {
+  position: relative;
+  background-color: transparent !important;
+  opacity: 1;
+  color: #ff4d4f !important; /* Bright red color */
+  border: 1px solid #ff4d4f;
+  transition: all 0.2s ease;
+}
+
+.size-item .delete-button:hover {
+  background-color: #ff4d4f !important;
+  color: white !important;
+  border-color: #ff4d4f;
+}
+
+.upload-button {
+  color: var(--text-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.dialog-actions {
+  padding: 16px 24px;
+  background-color: var(--background-light);
+  border-top: 1px solid var(--border-color);
+}
+
+.save-button {
+  background-color: var(--primary-color) !important;
+  color: var(--text-primary) !important;
+}
+
+.save-button:hover {
+  opacity: 0.9;
+}
+
+.cancel-button {
+  color: var(--text-secondary) !important;
+}
+
+/* Stack spacing for sections */
+.MuiStack-root {
+  gap: 24px !important; /* Increased gap between sections */
+}
+
+/* Space between title and buttons in sections */
+.MuiStack-root.MuiStack-direction-row {
+  margin-bottom: 20px !important;
+}

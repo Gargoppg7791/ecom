@@ -1,0 +1,89 @@
+.adminContainer {
+  padding: 8px;
+  margin: 0;
+  background-color: #f5f5f5; /* Light background color */
+}
+
+/* Grid Styles */
+.MuiGrid-container {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.MuiGrid-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card Styles */
+.MuiCard-root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  background-color: #ffffff; /* White background color */
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Card Content */
+.MuiCardContent-root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px !important;
+}
+
+.MuiCardHeader-root {
+  padding: 12px 16px !important;
+}
+
+/* Stats Card Specific */
+.stats-card {
+  min-height: 140px;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+/* Table Styles */
+.MuiTableContainer-root {
+  margin-top: 8px;
+}
+
+.MuiTableCell-head {
+  background-color: #e3f2fd !important; /* Light blue background color */
+  font-weight: 600 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 960px) {
+  .adminContainer {
+    padding: 8px;
+  }
+
+  .MuiGrid-container {
+    gap: 8px;
+  }
+
+  .MuiCard-root {
+    margin-bottom: 0;
+  }
+
+  .MuiCardContent-root {
+    padding: 12px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .adminContainer {
+    padding: 4px;
+  }
+
+  .MuiGrid-container {
+    gap: 4px;
+  }
+}

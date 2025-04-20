@@ -1,0 +1,223 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Address {
+  id            Int     @id @default(autoincrement())
+  firstName     String
+  lastName      String
+  streetAddress String
+  city          String
+  state         String
+  zipCode       String
+  userId        Int
+  mobile        String
+  user          User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  Order         Order[]
+}
+
+model Cart {
+  id                   Int        @id @default(autoincrement())
+  userId               Int        @unique
+  totalPrice           Int        @default(0)
+  totalItem            Int        @default(0)
+  totalDiscountedPrice Int        @default(0)
+  discount             Int        @default(0)
+  user                 User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cartItems            CartItem[]
+}
+
+model CartItem {
+  id              Int     @id @default(autoincrement())
+  cartId          Int
+  productId       Int
+  userId          Int
+  size            String
+  quantity        Int     @default(1)
+  price           Int
+  discountedPrice Int
+  color           String?
+  cart            Cart    @relation(fields: [cartId], references: [id], onDelete: Cascade)
+  product         Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  user            User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Category {
+  id               Int        @id @default(autoincrement())
+  name             String     @db.VarChar(50)
+  parentCategoryId Int?
+  level            Int
+  imageUrl         String?
+  parentCategory   Category?  @relation("CategoryHierarchy", fields: [parentCategoryId], references: [id])
+  Category         Category[] @relation("CategoryHierarchy")
+  Product          Product[]
+}
+
+model Order {
+  id                   Int             @id @default(autoincrement())
+  userId               Int
+  shippingAddressId    Int?
+  orderDate            DateTime
+  deliveryDate         DateTime?
+  totalPrice           Int
+  totalDiscountedPrice Int
+  discount             Int
+  orderStatus          String
+  totalItem            Int
+  createdAt            DateTime        @default(now())
+  shippingAddress      Address?        @relation(fields: [shippingAddressId], references: [id])
+  user                 User            @relation(fields: [userId], references: [id])
+  orderItems           OrderItem[]
+  payments             PaymentDetail[]
+}
+
+model PaymentDetail {
+  id            Int     @id @default(autoincrement())
+  orderId       Int
+  userId        Int
+  paymentMethod String?
+  transactionId String?
+  paymentId     String?
+  paymentStatus String?
+  order         Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  user          User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model OrderItem {
+  id              Int       @id @default(autoincrement())
+  productId       Int
+  size            String?
+  quantity        Int
+  price           Int
+  discountedPrice Int
+  userId          Int
+  orderId         Int
+  deliveryDate    DateTime?
+  order           Order     @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  product         Product   @relation(fields: [productId], references: [id])
+  user            User      @relation(fields: [userId], references: [id])
+}
+
+model Product {
+  id              Int         @id @default(autoincrement())
+  title           String?
+  description     String?
+  price           Int?
+  discountedPrice Int?
+  discountPercent Decimal?
+  brand           String?
+  numRatings      Int         @default(0)
+  createdAt       DateTime    @default(now())
+  categoryId      Int?
+  cartItems       CartItem[]
+  color           Color[]
+  orderItems      OrderItem[]
+  category        Category?   @relation(fields: [categoryId], references: [id])
+  ratings         Rating[]
+  reviews         Review[]
+  sizes           Size[]
+}
+
+model Size {
+  id        Int     @id @default(autoincrement())
+  name      String
+  quantity  Int
+  productId Int
+  product   Product @relation(fields: [productId], references: [id])
+}
+
+model Color {
+  id        Int      @id @default(autoincrement())
+  name      String
+  productId Int
+  photos    String[]
+  product   Product  @relation(fields: [productId], references: [id])
+}
+
+model Rating {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  productId Int
+  rating    Decimal
+  createdAt DateTime @default(now())
+  product   Product  @relation(fields: [productId], references: [id])
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+model Review {
+  id        Int      @id @default(autoincrement())
+  review    String
+  productId Int
+  userId    Int
+  createdAt DateTime @default(now())
+  images    String[]
+  product   Product  @relation(fields: [productId], references: [id])
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+model User {
+  id                 Int                  @id @default(autoincrement())
+  firstName          String
+  lastName           String?
+  password           String?
+  email              String               @unique
+  role               String               @default("CUSTOMER")
+  mobile             String?
+  createdAt          DateTime             @default(now())
+  googleId           String?              @unique
+  profilePic         String?
+  verified           Boolean              @default(false)
+  addresses          Address[]
+  cart               Cart?
+  cartItems          CartItem[]
+  notifications      Notification[]
+  orders             Order[]
+  orderItems         OrderItem[]
+  passwordResetToken PasswordResetToken[]
+  payments           PaymentDetail[]
+  ratings            Rating[]
+  reviews            Review[]
+  verificationToken  VerificationToken[]
+}
+
+model Notification {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  type      String
+  message   String
+  isRead    Boolean  @default(false)
+  metadata  Json?
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  id        Int      @id @default(autoincrement())
+  token     String   @unique
+  userId    Int
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+model PasswordResetToken {
+  id        Int      @id @default(autoincrement())
+  token     String   @unique
+  userId    Int
+  createdAt DateTime @default(now())
+  expiresAt DateTime
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+model Carousel {
+  id        Int      @id @default(autoincrement())
+  title     String
+  imageUrl  String
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
